@@ -1,0 +1,133 @@
+.fs30 {
+	margin-bottom: 30px;
+	font-size: 25px;
+	line-height: 46px;
+}
+
+.pt150 {
+	padding-top: 150px;
+}
+
+.img-bg {
+	margin: 0 30px 30px -60px;
+	padding: 20px;
+	background: #ccc;
+}
+
+.img-bg img {
+	width: 100%;
+}
+
+/*-----Contact Us------*/
+.sectionArea01 {
+	margin-bottom: 200px;
+}
+
+#cust-h1 {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 50px 0 30px;
+}
+
+#form-container {
+	margin-bottom: 30px;
+	padding: 20px;
+	background: #ccd1d3;
+}
+
+input#form-name,
+input#form-email,
+input#form-upload,
+textarea {
+	margin-bottom: 10px;
+	background: transparent;
+	border: 2px solid #fff;
+}
+
+textarea {
+	width: 100%;
+	height: 360px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#form-name,
+#form-email {
+	display: block;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+
+.upload-area {
+	width: 50%;
+}
+
+input#form-upload {
+	width: 75%;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.upload-area input[type='submit'] {
+	position: relative;
+	top: -2px;
+	left: -4px;
+	width: 24%;
+	padding: 11px 0;
+	background: #89999f;
+	border: none;
+	font-weight: bold
+}
+
+#form-container input#form-submit {
+	margin-left: 20px;
+	padding: 8px 30px;
+	color: #fff;
+	font-size: 17px;
+	background: #f55811;
+	border: none;
+}
+
+address {
+	width: 300px;
+	float: right;
+}
+
+address p {
+	color: #ccd1d3;
+	font-size: 20px;
+}
+
+main .container {
+	max-width: 1145px;
+}
+
+@media screen and (max-width: 991px) {
+	.upload-area {
+		width: 100%;
+	}
+	
+	input#form-upload {
+		width: 65%;
+	}
+	
+	.upload-area input[type='submit'] {
+		width: 30%;
+	}
+	
+	
+}
+@media screen and (max-width: 695px) {
+	.img-bg {
+		margin: 20px 0 0 0;
+	}
+	.sectionArea01 .pull-left {
+		float: none !important;
+	}
+	.sectionArea01 .pt150 {
+		padding-top: 10px;
+	}
+}

@@ -1,0 +1,117 @@
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.mr10{
+	margin-right: 10px!important;
+}
+
+.btn{
+	border-radius: 20px;
+}
+
+.cart_list img {
+	width: 15%;
+	margin-right: 15px;
+}
+
+.prodName img {
+	margin-right: 20px;
+}
+
+.prodName span {
+	font-weight: bold;
+}
+
+p.prodName {
+	margin-bottom: 0;
+}
+
+.cart-tbl > tbody > tr > td {
+	vertical-align: middle;
+}
+
+.table tbody tr:hover {
+	box-shadow: 0px 0px 15px 0px #242424;
+	background: #fff;
+	cursor: pointer;
+}
+
+.table tbody tr:last-child:hover {
+	box-shadow: none;
+	cursor: default;
+}
+
+.cart-tbl thead {
+	background: #343736;
+	color: #fff;
+}
+
+.cart-tbl thead tr th {
+	padding: 15px;
+	font-weight: normal;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.bb {
+	border-bottom: 2px solid #e6e5e5;
+}
+
+.cart-tbl > tbody > tr > td:nth-child(4) p {
+	display: inline-block;
+	border-bottom: 2px solid #eee;
+}
+
+.box.box-solid {
+	border-top: 0;
+}
+
+.box {
+	position: relative;
+	border-radius: 3px;
+	background: #eee;
+	border-top: 3px solid #d2d6de;
+	margin-bottom: 20px;
+	width: 100%;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-body {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding: 20px;
+}
+
+.box-body .text-center {
+	text-align: center;
+}
+
+.box-body h2 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive;
+	color: #333;
+	font-size: 125%;
+}
+
+.box-body .btn.btn-hero {
+	margin: 0;
+}
+
+.cart-tbl thead tr th {
+	font-family: 'Pacifico', cursive;
+}
+
+.btn-success {
+	background-color: #343736;
+	border-color: #343736;
+}

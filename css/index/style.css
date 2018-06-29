@@ -1,0 +1,147 @@
+@font-face {
+	font-family: songoth;
+	src: url(SonGothicBook.ttf);
+}
+
+.clearfix {
+	overflow: hidden;
+}
+
+main img {
+	width: 100%;
+}
+img.grayscale {
+	filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: all .6s ease;
+	-webkit-backface-visibility: hidden;
+}
+
+.section-block:hover img.grayscale {
+	filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+	-webkit-filter: grayscale(0%);
+}
+
+main .section-block {
+	position: relative;
+	overflow: hidden;
+}
+
+main .section-block h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+main .section-block h2 {
+	position: absolute;
+	width: 29%;
+	height: 100%;
+	margin: 0;
+	background: url(../../images/index/img_006.png) no-repeat;
+	background-size: cover;
+	z-index: 2;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 35px;
+	letter-spacing: 15px;
+	font-family: songoth;
+}
+
+main .section-block h2 span {
+	display: block;
+	margin-top: 37%;
+}
+
+main .section-block p {
+	position: relative;
+	z-index: 1;
+}
+
+.block02 h2 {
+	top: 0;
+	right: 9%;
+	
+	transition-property: right, left;
+	transition-duration: 0.7s;
+	-webkit-transition-property: right, left;
+	-webkit-transition-duration: 0.7s;
+}
+.block03 h2 {
+	top: 0;
+	left: 7%;
+	
+	transition-property: right, left;
+	transition-duration: 1.7s;
+	-webkit-transition-property: right, left;
+	-webkit-transition-duration: 1.7s;
+}
+.block04 h2 {
+	top: 0;
+	right: 9%;
+
+	transition-property: right, left;
+	transition-duration: 0.7s;
+	-webkit-transition-property: right, left;
+	-webkit-transition-duration: 0.7s;
+}
+.block05 h2 {
+	top: 0;
+	right: 28%;
+
+	transition-property: right, left;
+	transition-duration: 0.7s;
+	-webkit-transition-property: right, left;
+	-webkit-transition-duration: 0.7s;
+}
+
+.block02:hover h2 {
+	right: 7%;
+}
+.block03:hover h2 {
+	left: 4%;
+}
+.block04:hover h2 {
+	right: 7%;
+}
+.block05:hover h2 {
+	right: 24%;
+}
+
+
+
+
+@media only screen and (max-device-width : 667px){
+	.section-block img {
+		width: auto;
+		height: 100%;
+		max-height: 300px;
+	}
+	main .section-block h2 {
+		display: block;
+		width: auto;
+		height: auto;
+		margin: 30px;
+		right: 0;
+		left: 0;
+	}
+	main .section-block h2 span {
+		margin-top: 0;
+	}
+	.block02:hover h2,
+	.block03:hover h2,
+	.block04:hover h2,
+	.block05:hover h2 {
+		right: 0;
+		left: 0;
+	}
+}
+@media only screen and (max-device-width : 768px){
+	main .section-block h2 {
+		font-size: 22px;
+	}
+}
+
+
+
